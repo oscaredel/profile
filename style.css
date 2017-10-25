@@ -1,0 +1,78 @@
+body{
+  background-image: url('images/polygon.jpg');
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+}
+
+p{
+  text-align: justify;
+}
+
+a{
+  color: #888;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #222;
+}
+
+h1, h2{
+  font-family: 'Oswald', sans-serif;
+  color: #1E152A;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.container{
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card{
+  margin-top: 10px;
+  padding: 10px 20px;
+  box-shadow: 3px 4px 5px black;
+  border-radius: 7px;
+  background: rgb(230, 230, 230);
+}
+
+.img-size{
+  width: 200px;
+}
+
+.img-round{
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#movies img{
+  width: 180px;
+}
+
+#movies td{
+  padding: 10px;
+  text-align: left;
+}
+
+#profile-image{
+  margin: 20px 0px -25px 0px;
+}
+
