@@ -14,8 +14,13 @@ h1, h2 {
   color: rgb(250, 150, 50);
 }
 
+h1 {
+  font-size: 23pt;
+  line-height:1.2em;
+}
+
 h2 {
-font-size: 20px;
+font-size: 18pt;
 font-weight: lighter;
 font-weight: 500;
 }
@@ -49,11 +54,15 @@ a:hover {
   text-align: center;
 }
 
+.container {
+    width: 700px;
+    margin: 40px auto;
+  }
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
-    margin: 40px auto;
   }
 }
 @media (max-width: 720px) {
